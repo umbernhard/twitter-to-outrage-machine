@@ -7,8 +7,6 @@ Chrome extension that replaces occurrences of 'Twitter' with 'Social Media' and 
 
 Fork of cloud-to-butt, mostly done so I could troll my friends at Facebook and Twitter.
 
-At the moment the extension breaks the URLs, that will need to be fixed.
-
 Installation
 ------------
 
