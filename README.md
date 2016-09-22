@@ -10,4 +10,4 @@ Fork of cloud-to-butt, mostly done so I could troll my friends at Facebook and T
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag CloudToButt.crx into the page that appears.
+In Chrome, choose Window > Extensions.  Drag Twitter2SocialMedia.crx into the page that appears.
