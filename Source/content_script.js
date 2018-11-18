@@ -25,7 +25,9 @@ function replaceText(v)
     v = v.replace(/\btwitter.com\b/g, "outragemachine.com");
 	v = v.replace(/\btwitter\b/g, "outrage machine");
 	v = v.replace(/\btweet\b/g, "rage");
+	v = v.replace(/\btweets\b/g, "rages");
 	v = v.replace(/\bTweet\b/g, "Rage");
+	v = v.replace(/\bTweets\b/g, "Rages");
 
     return v;
 }
