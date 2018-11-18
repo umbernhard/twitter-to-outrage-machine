@@ -3,6 +3,12 @@
 	"name": "Twitter to Outrage Machine",
 	"version": "1.0",
 	"description": "Replaces the text 'Twitter' with 'Outrage Machine'.",
+
+    "browser_action": 
+    {
+       "default_icon": "logo.png"
+     },
+
 	"content_scripts":
 	[
 		{
