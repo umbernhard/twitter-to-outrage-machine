@@ -21,16 +21,22 @@ function handleText(textNode) {
 
 function replaceText(v)
 {
-	v = v.replace(/\bTwitter\b/g, "Outrage Machine");
-    v = v.replace(/\btwitter.com\b/g, "outragemachine.com");
-	v = v.replace(/\btwitter\b/g, "outrage machine");
-	v = v.replace(/\btweet\b/g, "rage");
-	v = v.replace(/\btweets\b/g, "rages");
+	v = v.replace(/\bRetweeted\b/g, "Reraged");
+	v = v.replace(/\bRetweet\b/g, "Rerage");
+
+//	v = v.replace(/([^-]|[^="]|\b)retweet\b/g, "$1rerage");
+//	v = v.replace(/([^-]|[^=]\b)tweet\b/g, "$1rage");
+//	v = v.replace(/([^-]|[^="]|\b)tweets\b/g, "$1rages");
+//	v = v.replace(/([^-]|[^="]|\b)tweeted\b/g, "$1raged");
+//	v = v.replace(/ tweets\b/g, "rages");
 	v = v.replace(/\bTweet\b/g, "Rage");
 	v = v.replace(/\bTweets\b/g, "Rages");
 	v = v.replace(/\bTweetstorm\b/g, "Rage-rant");
 	v = v.replace(/\btweetstorm\b/g, "rage-rant");
 
+	v = v.replace(/\bTwitter\b/g, "Outrage Machine");
+    v = v.replace(/\btwitter.com\b/g, "outragemachine.com");
+	v = v.replace(/\btwitter\b/g, "outrage machine");
     return v;
 }
 
@@ -39,8 +45,7 @@ function isForbiddenNode(node) {
     return node.isContentEditable || // DraftJS and many others
     (node.parentNode && node.parentNode.isContentEditable) || // Special case for Gmail
     (node.tagName && (node.tagName.toLowerCase() == "textarea" || // Some catch-alls
-                     node.tagName.toLowerCase() == "input" ||
-                     node.tagName.toLowerCase() == "div"));
+                     node.tagName.toLowerCase() == "input"));
 
 }
 
