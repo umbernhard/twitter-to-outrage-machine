@@ -1,13 +1,7 @@
-twitter-to-social-media
+twitter-to-outrage-machine
 =============
 
-Chrome extension that replaces occurrences of 'Twitter' with 'Social Media' and 'tweet' to 'post'
+Chrome extension that replaces occurrences of 'Twitter' with 'Outrage Machine' and 'rage' to 'post'
 
-[Direct download of crx file](https://github.com/DanieleSalatti/twitter-to-social-media/raw/master/Twitter2SocialMedia.crx)
+Fork of twitter-to-social-media.
 
-Fork of cloud-to-butt, mostly done so I could troll my friends at Facebook and Twitter.
-
-Installation
-------------
-
-In Chrome, choose Window > Extensions.  Drag Twitter2SocialMedia.crx into the page that appears.
