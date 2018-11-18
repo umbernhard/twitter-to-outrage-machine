@@ -28,6 +28,8 @@ function replaceText(v)
 	v = v.replace(/\btweets\b/g, "rages");
 	v = v.replace(/\bTweet\b/g, "Rage");
 	v = v.replace(/\bTweets\b/g, "Rages");
+	v = v.replace(/\bTweetstorm\b/g, "Rage-rant");
+	v = v.replace(/\btweetstorm\b/g, "rage-rant");
 
     return v;
 }
